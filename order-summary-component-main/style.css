@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 10%;
+}
+
+.conteiner{
+    text-align: center;
+    width: 400px;
+    background:hsl(225, 100%, 98%);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.tittle{
+    font-size: 25px;
+    margin-top: 1rem;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+.pair{
+    font-weight: 100;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.plan{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin-left: 2.5rem;
+}
+
+.plan{
+    margin-right: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.annual-plan{
+    font-size: 15px;
+    font-weight: 900;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.price{
+    color: hsl(224, 23%, 55%);
+    margin-left: 0.6rem;
+    font-size: 14px;
+}
+
+.change{
+    font-weight: 900;
+    color: hsl(245, 75%, 52%);
+    margin-left: 6rem;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.change:hover{
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.proceed-to-payment{
+    color: #FFF;
+    background: hsl(245, 75%, 52%);
+    padding: 0.7rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    box-shadow: 0 5px 20px hsl(245, 75%, 52%, 60%);
+}
+
+.proceed-to-payment:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    background: hsl(245, 78%, 58%);
+}
+
+.cancel-order{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: small;
+}
+
+.cancel-order:hover{
+    transition: 0.3s;
+    color: black;
+    cursor: pointer;
+}
